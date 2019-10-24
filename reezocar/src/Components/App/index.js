@@ -12,12 +12,9 @@ function App() {
         car.isActive ? (
           <Car
             key={car._id}
-            id={car._id}
-            age={car.age}
             brand={car.brand}
             energy={car.energy}
             extColor={car.extColor}
-            isActive={car.isActive}
             milleage={car.milleage}
             model={car.model}
             picture={car.picture}

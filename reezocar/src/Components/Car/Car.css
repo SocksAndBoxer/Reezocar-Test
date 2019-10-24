@@ -4,7 +4,8 @@
     margin: 10px;
     border-radius: 10px;
     width: 15%;
-    min-width: 200px;
+    min-width: 220px;
+    max-height: 400px;
     position: relative;
 }
 
@@ -14,16 +15,27 @@
     border-radius: 10px;
 }
 
+.title {
+    text-transform: capitalize;
+}
+
 .informations {
+    text-transform: capitalize;
     display: flex;
     justify-content: space-around;
+    margin: 0 auto;
     padding: 0 10px;
     height: 40%;
-    width: 100%;
+    width: 80%;
+    color: gray;
 }
 
 .price {
-    position: absolute;
-    top: 65%;
-    left: 70%;
+    margin-left: auto;
+    margin-right: 15px;;
+    color: white;
+    background-color: #081317;
+    font-weight: 700;
+    width: 100px;
+    padding: 5px 0;
 }
