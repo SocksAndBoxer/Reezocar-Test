@@ -1,0 +1,29 @@
+.car {
+    text-align: center;
+    background-color: white;
+    margin: 10px;
+    border-radius: 10px;
+    width: 15%;
+    min-width: 200px;
+    position: relative;
+}
+
+.picture {
+    height: 60%;
+    width: 100%;
+    border-radius: 10px;
+}
+
+.informations {
+    display: flex;
+    justify-content: space-around;
+    padding: 0 10px;
+    height: 40%;
+    width: 100%;
+}
+
+.price {
+    position: absolute;
+    top: 65%;
+    left: 70%;
+}
