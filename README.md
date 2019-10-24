@@ -1,5 +1,5 @@
 # Reezocar-Test
 
-To try start the app :
+To start the app :
 
 npm start or yarn start.
